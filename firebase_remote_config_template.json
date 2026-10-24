@@ -1,0 +1,88 @@
+{
+  "parameters": {
+    "ads_enabled": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "description": "Master switch: true = Ads ON, false = All Ads OFF globally",
+      "valueType": "BOOLEAN"
+    },
+    "use_test_ads": {
+      "defaultValue": {
+        "value": "false"
+      },
+      "description": "Mode switch: false = Live Production Ads, true = Google Official Test Ads",
+      "valueType": "BOOLEAN"
+    },
+    "app_open_enabled": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "description": "Enable or disable App Open ads on app launch and resume",
+      "valueType": "BOOLEAN"
+    },
+    "interstitial_enabled": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "description": "Enable or disable Interstitial ads after saving photos or editing",
+      "valueType": "BOOLEAN"
+    },
+    "rewarded_enabled": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "description": "Enable or disable Rewarded ads for unlocking VIP features",
+      "valueType": "BOOLEAN"
+    },
+    "banner_enabled": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "description": "Enable or disable Banner ads",
+      "valueType": "BOOLEAN"
+    },
+    "ad_unit_app_open": {
+      "defaultValue": {
+        "value": "ca-app-pub-5058759516035385/4609157321"
+      },
+      "description": "AdMob App Open Ad Unit ID",
+      "valueType": "STRING"
+    },
+    "ad_unit_interstitial": {
+      "defaultValue": {
+        "value": "ca-app-pub-5058759516035385/6935937761"
+      },
+      "description": "AdMob Interstitial Ad Unit ID",
+      "valueType": "STRING"
+    },
+    "ad_unit_rewarded": {
+      "defaultValue": {
+        "value": "ca-app-pub-5058759516035385/1332257293"
+      },
+      "description": "AdMob Rewarded Ad Unit ID",
+      "valueType": "STRING"
+    },
+    "ad_unit_banner": {
+      "defaultValue": {
+        "value": "ca-app-pub-5058759516035385/6300978111"
+      },
+      "description": "AdMob Banner Ad Unit ID",
+      "valueType": "STRING"
+    },
+    "interstitial_cooldown_seconds": {
+      "defaultValue": {
+        "value": "180"
+      },
+      "description": "Cooldown between interstitial ads in seconds (180 = 3 mins)",
+      "valueType": "NUMBER"
+    },
+    "app_open_cooldown_seconds": {
+      "defaultValue": {
+        "value": "240"
+      },
+      "description": "Cooldown between App Open ads in seconds (240 = 4 mins)",
+      "valueType": "NUMBER"
+    }
+  }
+}

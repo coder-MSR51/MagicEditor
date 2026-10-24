@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "169523681909",
+    "project_id": "magic-editor-5a309",
+    "storage_bucket": "magic-editor-5a309.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169523681909:android:2a6db878c47dafaab6763c",
+        "android_client_info": {
+          "package_name": "com.photo.magic.editor.msr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC47zlch7e6CUY3Ah3OD-Y0EVtw3I6oXDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

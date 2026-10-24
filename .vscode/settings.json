@@ -1,0 +1,12 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.import.gradle.java.home": "C:\\Users\\manis\\AppData\\Local\\Java\\jdk-21.0.12.1+1",
+    "java.jdt.ls.java.home": "C:\\Users\\manis\\AppData\\Local\\Java\\jdk-21.0.12.1+1",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Users\\manis\\AppData\\Local\\Java\\jdk-21.0.12.1+1",
+            "default": true
+        }
+    ]
+}
